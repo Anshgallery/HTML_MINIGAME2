@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: beige;
+    /*  display flex used for side by side view */
+    /* its to important for justify content equal to center and align_items equal to center */
+    display: flex;
+    align-items: center;
+    /* justify content equal to center is used for width wise centering
+     */
+  justify-content: center;
+}
+div{
+    /* note thet i have given a  common properties to voth box1 and box2  */
+    background-color: rgb(230, 78, 78);
+    height: 50%;
+    width: 50%;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#box1{
+    background-color: aquamarine;
+    text-align: center;
+    /* height:50%;
+    width :50% */
+}
+#box2{
+    text-align: center;
+    background-color: blueviolet;
+    /* height:50%;
+    width :50% */
+}
