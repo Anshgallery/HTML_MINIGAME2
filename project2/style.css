@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(161, 198, 190);
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(161, 198, 190);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.card{
+    height: 300px;
+    width: 200px;
+    border: 5px solid black;
+    background-color: darkgray;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    /*help to fit in border */
+    overflow: hidden;
+
+}
+#card1{
+    z-index: 4;
+    border-radius: 15px;
+    
+}
+#card2{
+    background-color: chartreuse;
+    transform: translate(-50%,-50%) rotate(-7deg);
+    z-index: 3;
+    border-radius: 15px;
+
+}
+#card3{
+    background-color: rgb(224, 215, 147);
+    transform: translate(-50%,-50%) rotate(-14deg);
+    z-index: 2;
+    border-radius: 15px;
+    
+}
+#card4{
+    background-color: rgb(221, 115, 219);
+    transform: translate(-50%,-50%) rotate(-21deg);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    /* make it fit inside the structure of card */ 
+    /* after go and checm overflow :hidden */
+    object-fit: cover;
+    
+}
+
+#card2:hover{
+    z-index: 16;
+}
+#card3:hover{
+    z-index: 16;
+}
+#card4:hover{
+    z-index: 16;
+}
